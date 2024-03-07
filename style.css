@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(2, 2, 29);
+}
+.head{
+    width: 100%;
+    height: 90px;
+    color:rgb(0, 107, 128);
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    border: 1px solid black;
+}
+.circle{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border:2px solid rgb(0, 107, 128);
+    border-radius:50px;
+    top:15%;
+    left:2%;
+}
+.logo{
+    position: absolute;
+    top:30%;
+    left:3.5%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.hp1{
+    position: absolute;
+    top:40%;
+    left:40%;
+}
+.hp2{
+    position: absolute;
+    top:40%;
+    left:50%;
+}
+.hp3{
+    position: absolute;
+    top:40%;
+    left:60%;
+}
+.hp4{
+    position: absolute;
+    top:40%;
+    left:70%;
+}
+.hp5{
+    position: absolute;
+    top:40%;
+    left:80%;
+}
+.hp6{
+    position: absolute;
+    top:40%;
+    left:90%;
+}
+.home{
+    width: 100%;
+    height: 800px;
+    border-bottom: 1px solid white;
+    color: white;
+    position: relative;
+}
+.name{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:inherit;
+    top:20%;
+    left:3%;
+}
+.domine{
+    position: absolute;
+    color:yellow;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:inherit;
+    top:27%;
+    left:3%;
+}
+.intropara{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:inherit;
+    top:37%;
+    left:3%;
+    text-align:justify;
+
+}
