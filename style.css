@@ -224,7 +224,7 @@ body{
     position: absolute;
     width: 40%;
     left:25%;
-    top:5%;
+    top:4%;
 }
 .box1{
     position: absolute;
@@ -268,3 +268,161 @@ body{
     right: 10%;
     top:25%;
 }
+.skills{
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+.line2{
+    position: absolute;
+    width: 40%;
+    left:15%;
+    top:4%;
+}
+.skbox1{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border: 1px solid white;
+    background-color: #151925;
+    border-radius: 20px;
+    top:20%;
+    left:8%;
+}
+.skbox2{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border: 1px solid white;
+    background-color: #151925;
+    border-radius: 20px;
+    top:20%;
+    left:33%;
+}
+.skbox3{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border: 1px solid white;
+    background-color: #151925;
+    border-radius: 20px;
+    top:20%;
+    left:56%;
+}
+.skbox4{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border: 1px solid white;
+    background-color: #151925;
+    border-radius: 20px;
+    top:20%;
+    left:79%;
+}
+.skbox5{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border: 1px solid white;
+    background-color: #151925;
+    border-radius: 20px;
+    top:60%;
+    left:8%;
+}
+.skbox6{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border: 1px solid white;
+    background-color: #151925;
+    border-radius: 20px;
+    top:60%;
+    left:33%;
+}
+.skbox7{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+    border: 1px solid white;
+    background-color: #151925;
+    border-radius: 20px;
+    top:60%;
+    left:56%;
+}
+.skimg1{
+    position: absolute;
+    top:20%;
+    left:23%;
+}
+.skimg2{
+    position: absolute;
+    top:22%;
+    left:23%;
+    width: 100px;
+    height: 100px;
+}
+.skimg3{
+    position: absolute;
+    top:22%;
+    left:23%;
+    width: 100px;
+    height: 100px;
+}
+.skpara1{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top:48%;
+    left:13%;
+}
+.skpara2{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top:48%;
+    left:38%;
+}
+.skpara3{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top:48%;
+    left:59%;
+}
+.skpara4{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top:48%;
+    left:82%;
+}
+.skpara5{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top:89%;
+    left:13%;
+}
+.skpara6{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top:89%;
+    left:38%;
+}
+.skpara7{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top:89%;
+    left:63%;
+}
+
+
