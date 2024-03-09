@@ -230,16 +230,41 @@ body{
     position: absolute;
     width:400px;
     height: 450px;
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color:#151925;
     left:10%;
     top:25%;
-    
+}
+.htmltagimg{
+    position: absolute;
+    left:35%;
+    top:8%;
+}
+.title1{
+    position:absolute;
+    top:36%;
+    left:19%;
+    font-size: 17px;
+    color:yellow;
+}
+.para4{
+    color:white;
+    position: absolute;
+    top:52%;
+    letter-spacing:1px;
+    line-height: 25px;
+    text-align: justify;
+    margin: 25px;
 }
 .box2{
+    box-sizing: border-box;
     position: absolute;
     width: 400px;
     height: 450px;
-    border: 1px solid white;
+    border: 2px solid white;
+    background-color:#151925;
+    border-radius: 20px;
     right: 10%;
     top:25%;
 }
