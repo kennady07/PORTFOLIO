@@ -6,6 +6,7 @@
 body{
     background-color: rgb(4, 4, 52);
 }
+/* header style */
 .head{
     width: 100%;
     height: 90px;
@@ -85,6 +86,11 @@ body{
 .hp6:hover{
     color:rgb(0, 107, 128);
 }
+.topnav{
+    display:none;
+}
+
+/* home style */
 .home{
     width: 100%;
     height: 800px;
@@ -108,6 +114,8 @@ body{
     top:27%;
     left:3%;
 }
+.domine1{display:none;}
+.intropara1{display: none;}
 .intropara{
     position: absolute;
     font-size: 18px;
@@ -173,6 +181,8 @@ body{
     background-color: #fea609;
     cursor: pointer;
 }
+
+/* About style */
 .about{
     height: 600px;
     width: 100%;
@@ -260,6 +270,8 @@ body{
     line-height: 21px;
     color: white;
 }
+
+/* experience style */
 .experience{
     height: 800px;
     width: 100%;
@@ -314,6 +326,8 @@ body{
     right: 10%;
     top:28%;
 }
+
+/* skills style */
 .skills{
     height: 800px;
     width: 100%;
@@ -470,6 +484,8 @@ body{
     top:89%;
     left:63%;
 }
+
+/* projects style */
 .project{
     height:1500px;
     width: 100%;
@@ -574,6 +590,9 @@ body{
     top:95%;
 }
 
+
+/* contact style */
+
 .contact{
     height:600px;
     width: 100%;
@@ -635,6 +654,299 @@ body{
     font-size:35px;
 }
 
+/* MEDIA QUERY FOR MOBILE DEVICES*/
+
+@media only screen and (max-width: 600px) 
+{
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    .head{
+        display:none;
+    }
+    .topnav{
+        display: block;
+        background-color:transparent;
+        position: relative;
+        width: 890px;
+        position: sticky;
+        top:0px;
+        z-index: 2;
+        border-bottom: 2px solid white;
+        
+    }
+    .topnav #mylink{
+        display: none;
+        z-index: 2;
+    }
+    .topnav a{
+        color:white;
+        text-decoration: none;
+        padding: 14px 16px;
+        font-size: 40px;
+        display: block;
+        background-color:rgb(4, 4, 52);
+    }
+    .topnav a.icon{
+        background-color: black;
+        position: absolute;
+        right:0px;
+        top:0px;
+        z-index: 1;
+    }
+    .topnav a:hover{
+        background-color:transparent;
+        color: white;
+        z-index: 1;
+    }
+    #demo{
+        width: 890px;
+    }
+
+    .home{
+        width: 890px;
+        height: 1600px;
+        color: white;
+        position: relative;
+        border-bottom: 2px solid white;
+    }
+    .circle1{
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        border:2px solid white;
+        border-radius:50%;
+        top:8%;
+        left:32%;
+        box-shadow: 0 0 37px  30px yellow;
+        background-color: white;
+    }
+    #myimg{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    .name{
+        position: absolute;
+        font-size: 50px;
+        font-weight: bold;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        top:34%;
+        left:29%;
+    }
+    .domine{display:none;}
+    .domine1{
+        position: absolute;
+        color:yellow;
+        font-size: 35px;
+        font-weight: bold;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        top:40%;
+        left:10%;
+        display: block;
+    }
+    .intropara{display: none;}
+    .intropara1{
+        position: absolute;
+        font-size: 32px;
+        font-family:'Times New Roman', Times, serif;
+        top:49%;
+        left:10%;
+        margin-right: 95px;
+        letter-spacing:2px;
+        line-height:55px;
+        display: block;
+        text-align: justify;
+    }
+    .img{
+        position: absolute;
+        font-size: 60px;
+        top:80%;
+        left:15%;
+    }
+    .img1{
+        position: absolute;
+        font-size: 60px;
+        top:80%;
+        left:35%;
+    }
+    .img2{
+        position: absolute;
+        font-size: 60px;
+        top:80%;
+        left:55%;
+    }
+    .img3{
+        position: absolute;
+        font-size: 60px;
+        top:80%;
+        left:75%;
+    }
+    #btn {
+        position: absolute;
+        top:90%;
+        left:35%;
+        font-size:35px;
+        width:250px;
+        height:100px;
+        border: 1px solid #fea609;
+        border-radius: 50px;
+        color: white;
+        background-color: #fea609;
+        cursor: pointer;
+    }
+
+        
+    /* About style */
+    .about{
+        height: 1900px;
+        width: 890px;
+        position: relative;
+        padding: 0px;
+        border-bottom: 2px solid white;
+    }
+    .box{
+        display: none;
+    }
+    .img4{
+        position: absolute;
+        top:8%;
+        left:32%;
+        width:300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 15px solid yellow;
+    }
+    .title{
+        color:pink;
+        position: absolute;
+        font-size: 50px;
+        font-weight: bold;
+        font-family:inherit;
+        left:33%;
+        top:27%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .line{
+        display: none;
+    }
+    .role{
+        position: absolute;
+        left:22%;
+        top:34%;
+        font-size: 40px;
+        color: yellow;
+    }
+    .para1{
+        position: absolute;
+        font-size: 32px;
+        font-family:'Times New Roman', Times, serif;
+        top:39%;
+        left:10%;
+        margin-right:95px;
+        letter-spacing:2px;
+        line-height:55px;
+        text-align: justify;
+    }
+    .para2{
+        position: absolute;
+        font-size: 32px;
+        font-family:'Times New Roman', Times, serif;
+        top:59%;
+        left:10%;
+        margin-right:95px;
+        letter-spacing:2px;
+        line-height:55px;
+        text-align: justify;
+    }
+    .para3{
+        position: absolute;
+        font-size: 32px;
+        font-family:'Times New Roman', Times, serif;
+        top:77%;
+        left:10%;
+        margin-right:95px;
+        letter-spacing:2px;
+        line-height:55px;
+        text-align: justify;
+    }
+
+        
+    /* experience style */
+    .experience{
+        height: 2500px;
+        width: 890px;
+        position: relative;
+        padding: 0px;
+        border-bottom:1px solid white;
+    }
+    #exp_title{
+        color:pink;
+        position: absolute;
+        font-size: 50px;
+        font-weight: bold;
+        font-family:inherit;
+        left:33%;
+        top:0%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .line1{display: none;}
+    .box1{
+        position: absolute;
+        width:650px;
+        height: 950px;
+        border: 2px solid white;
+        border-radius: 20px;
+        background-color:#232b41;
+        left:13%;
+        top:9%;
+    }
+    .htmltagimg{
+        position: absolute;
+        left:35%;
+        top:6%;
+        width: 230px;
+        height: 150px;
+    }
+    .title1{
+        position:absolute;
+        top:30%;
+        left:8%;
+        font-size: 40px;
+        color:yellow;
+    }
+    .para4{
+        color:white;
+        position: absolute;
+        top:33%;
+        font-size: 32px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing:2px;
+        line-height: 55px;
+        text-align: justify;
+        margin:60px;
+    }
+    .box2{
+        position: absolute;
+        width:650px;
+        height: 950px;
+        border: 2px solid white;
+        border-radius: 20px;
+        background-color:#232b41;
+        left:13%;
+        top:54%;
+        
+    }
 
 
+
+        
+    
+
+
+
+}
 
