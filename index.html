@@ -19,9 +19,25 @@
         <a href="#project"><p class="hp5">Projects</p></a>
         <a href="#contact"><p class="hp6">Contact</p></a>
     </header>
+    <div class="topnav">
+        <a href="index.html">K</a>
+        <div id="mylink">
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div><br>
     <section class="home" id="home">
         <p class="name"> I'm Kennady M</p>
         <p class="domine">Front-end Developer / &nbsp;&nbsp;UI / UX Designer&nbsp;&nbsp; / Web Developer</p>
+        <p class="domine1">Front-end Developer / UI / UX Designer / <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Developer</p>
+        <p class="intropara1">Welcome to my portfolio ! I am a passinate web developer in building dynamic and responsive web applications.I am continuously expanding  my skilset,currently  focusing on technologies such as React.js, Tailwind, MongoDB.Here, you will find a collection of my past projects and some experiences. </p>
         <p class="intropara">Welcome to my portfolio ! I am a passinate web developer in building <br> dynamic and responsive web applications.I am continuously expanding <br> my skilset,currently  focusing on technologies such as React.js, Tailwind,<br> MongoDB.Here, you will find a collection of my past  <br> projects and some experiences. </p>
         <div class="circle1"><img src="../PORTFOLIO/assets/images/photo.jpeg" id="myimg"></div>
         <a href="https://github.com/kennady07" class="img"> <i class="fab fa-github fa-lg" style="color: #fea609;"></i></a>
@@ -40,7 +56,7 @@
         <p class="para3">I have a strong commitment to continuously learning, always seeking more efficient ways to improve my skills.To find out more about me, please check out my works below.  </p>
     </section><br><br><br><br><br><br><br><br><br><br>
     <section class="experience" id="experience">
-        <p class="title">EXPERIENCE</p><hr class="line1">
+        <p class="title" id="exp_title">EXPERIENCE </p><hr class="line1">
         <div class="box1">
             <img src="../PORTFOLIO/assets/images/html-tag.png" alt="htmltag" class="htmltagimg">
             <h4 class="title1">FRONTEND DEVELOPMENT</h4>
@@ -114,5 +130,15 @@
         <a href="https://github.com/kennady07" class="con_img2"> <i class="fab fa-github fa-lg" style="color: #fea609;"></i></a> 
         <a href="https://medium.com/@kennady27032003" class="con_img3"> <i class="fab fa-medium fa-lg" style="color: #fea609;"></i></a>
     </section>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mylink");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+             x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 </html>
