@@ -685,7 +685,7 @@ body{
         color:white;
         text-decoration: none;
         padding: 14px 16px;
-        font-size: 40px;
+        font-size: 50px;
         display: block;
         background-color:rgb(4, 4, 52);
     }
@@ -938,15 +938,358 @@ body{
         background-color:#232b41;
         left:13%;
         top:54%;
-        
     }
 
-
-
-        
     
+    /* skills style */
+    .skills{
+        height: 1600px;
+        width: 890px;
+        position: relative;
+        border-bottom: 1px solid white;
+    }
+    #sktitle{
+        color:pink;
+        position: absolute;
+        font-size: 50px;
+        font-weight: bold;
+        font-family:inherit;
+        left:38%;
+        top:5%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .line2{display: none;}
+    .skbox1{
+        position: absolute;
+        width: 190px;
+        height: 190px;
+        border: 2px solid white;
+        background-color:#232b41;
+        border-radius: 20px;
+        top:17%;
+        left:10%;
+    }
+    .skbox2{
+        position: absolute;
+        width: 190px;
+        height: 190px;
+        border: 2px solid white;
+        background-color: #232b41;
+        border-radius: 20px;
+        top:17%;
+        left:40%;
+    }
+    .skbox3{
+        position: absolute;
+        width: 190px;
+        height: 190px;
+        border: 2px solid white;
+        background-color:#232b41;
+        border-radius: 20px;
+        top:17%;
+        left:70%;
+    }
+    .skbox4{
+        position: absolute;
+        width: 190px;
+        height: 190px;
+        border: 2px solid white;
+        background-color: #232b41;
+        border-radius: 20px;
+        top:42%;
+        left:10%;
+    }
+    .skbox5{
+        position: absolute;
+        width: 190px;
+        height: 190px;
+        border: 2px solid white;
+        background-color:#232b41;
+        border-radius: 20px;
+        top:42%;
+        left:40%;
+        
+    }
+    .skbox6{
+        position: absolute;
+        width: 190px;
+        height: 190px;
+        border: 2px solid white;
+        background-color:#232b41;
+        border-radius: 20px;
+        top:42%;
+        left:70%;
+        
+    }
+    .skbox7{
+        position: absolute;
+        width: 190px;
+        height: 190px;
+        border: 2px solid white;
+        background-color:#232b41;
+        border-radius: 20px;
+        top:67%;
+        left:10%;
+    }
+    .skpara1{
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        position: absolute;
+        top:32%;
+        left:15%;
+        letter-spacing: 1px;
+    }
+    .skpara2{
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        position: absolute;
+        top:32%;
+        left:48%;
+        letter-spacing: 1px;
+    }
+    .skpara3{
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        position: absolute;
+        top:32%;
+        left:69%;
+        letter-spacing: 1px;
+    }
+    .skpara4{
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        position: absolute;
+        top:58%;
+        left:9%;
+    }
+    .skpara5{
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        position: absolute;
+        top:58%;
+        left:44%;
+    }
+    .skpara6{
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        position: absolute;
+        top:58%;
+        left:73%;
+    }
+    .skpara7{
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        position: absolute;
+        top:81%;
+        left:17%;
+    }
 
+    /* projects style */
+    .project{
+        height:2500px;
+        width: 890px;
+        position: relative;
+        border-bottom: 1px solid white;
+    }
+    .line3{display: none;}
+    #prtitle{
+        color:pink;
+        position: absolute;
+        font-size: 50px;
+        font-weight: bold;
+        font-family:inherit;
+        left:14%;
+        top:2%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .pimg1{
+        position: absolute;
+        width: 75%;
+        height: 350px;
+        top:10%;
+        left:13%;
+    }
+    .pt1{
+        position: absolute;
+        top:26%;
+        right: 13%;
+        color:white;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .prexp{
+        position: absolute;
+        top:30%;
+        left:8%;
+        width: 85%;
+        height: 400px;
+        border: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.204);
+        border-radius: 5px;
+        
+    }
+    .prexp1{
+        color:rgb(249, 249, 83);
+        position: absolute;
+        font-size: 32px;
+        font-family:'Times New Roman', Times, serif;
+        top:2%;
+        left:5%;
+        margin-right: 25px;
+        letter-spacing:2px;
+        line-height:55px;
+        display: block;
+        text-align: justify;
+    }
+    .prlogo1{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 28%;
+        top:47%;
+    }
+    .prlogo2{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 13%;
+        top:47%;
+    }
+    .pimg2{
+        position: absolute;
+        width: 75%;
+        height: 350px;
+        top:57%;
+        left:13%;
+    }
+    .pt2{
+        position: absolute;
+        top:73%;
+        right: 13%;
+        color:white;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .prexp2{
+        position: absolute;
+        top:78%;
+        left:8%;
+        width: 85%;
+        height: 300px;
+        border: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.204);
+        border-radius: 5px;
+    }
+    .prexp3{
+        color:rgb(249, 249, 83);
+        position: absolute;
+        font-size: 32px;
+        font-family:'Times New Roman', Times, serif;
+        top:2%;
+        left:5%;
+        margin-right: 25px;
+        letter-spacing:2px;
+        line-height:55px;
+        display: block;
+        text-align: justify;
+    }
+    .prlogo3{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 28%;
+        top:91%;
+    }
+    .prlogo4{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 13%;
+        top:91%;
+    }
+        
+    /* contact style */
 
-
+    .contact{
+        height:1000px;
+        width: 890px;
+        position: relative;
+    }
+    .line4{display: none;}
+    #contitle{
+        display: block;
+        color:pink;
+        position: absolute;
+        font-size: 60px;
+        font-weight: bold;
+        font-family:inherit;
+        left:28%;
+        top:2%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .con_title{
+        color:yellow;
+        position: absolute;
+        font-size: 45px;
+        font-weight: bold;
+        font-family:inherit;
+        left:33%;
+        top:12%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .con_para1{
+        color:white;
+        position: absolute;
+        top:17%;
+        left:3%;
+        font-size: 32px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing:2px;
+        line-height: 55px;
+        text-align: justify;
+        margin:60px;
+    }
+    .btn {
+        position: absolute;
+        top:64%;
+        left:35%;
+        font-size:35px;
+        width:250px;
+        height:100px;
+        border: 1px solid #fea609;
+        border-radius: 50px;
+        color: white;
+        background-color: #fea609;
+        cursor: pointer;
+    }
+    .con_img1{
+        position: absolute;
+        top:85%;
+        left:25%;
+        font-size:70px;
+    }
+    .con_img2{
+        position: absolute;
+        top:85%;
+        left:45%;
+        font-size:70px;
+        
+    }
+    .con_img3{
+        position: absolute;
+        top:85%;
+        left:65%;
+        font-size:70px;
+    }
 }
 
