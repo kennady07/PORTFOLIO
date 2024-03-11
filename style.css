@@ -669,41 +669,44 @@ body{
     .topnav{
         display: block;
         background-color:transparent;
+        width:890px;
+        border-bottom: 2px solid white;
+    }
+    .topnav1{
+        display: block;
+        background-color:transparent;
         position: relative;
-        width: 890px;
+        width:890px;
         position: sticky;
         top:0px;
         z-index: 2;
         border-bottom: 2px solid white;
-        
     }
-    .topnav #mylink{
+    .topnav1 #mylink{
         display: none;
         z-index: 2;
     }
-    .topnav a{
+    .topnav1 a{
         color:white;
         text-decoration: none;
         padding: 14px 16px;
-        font-size: 50px;
+        font-size:40px;
         display: block;
         background-color:rgb(4, 4, 52);
     }
-    .topnav a.icon{
+    .topnav1 a.icon{
         background-color: black;
         position: absolute;
         right:0px;
         top:0px;
         z-index: 1;
     }
-    .topnav a:hover{
+    .topnav1 a:hover{
         background-color:transparent;
         color: white;
         z-index: 1;
     }
-    #demo{
-        width: 890px;
-    }
+   
     /* home style */
 
     .home{
